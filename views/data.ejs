@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>filesystem api </title>
+    <style type="text/css"> 
+        #filecontents { 
+             border:double; 
+          overflow-y:scroll;
+          overflow-x:scroll; 
+          height:500px; 
+        } 
+   </style>
+   
+</head>
+<body>
+    <div>
+        <h1>Registeration Data </h1>
+        <form id="form1" action="" method="POST">
+            <div>
+                File name to read: <br /><input type="text" name="txtFileName" id="txtFileName" placeholder="Filename">
+                <input type="submit" id="btnread" value="Read File" >
+            </div>
+            
+            <div>File contents</div>
+               <div id="filecontents">
+            </div>
+            
+        </form>
+    </div>
+    <script type="text/javascript" src="dataset.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TCE TECUTSAV 2020</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+	
+
+</head>
+<body>
+	<h3>TCE TECUTSAV 2020</h3>
+	<div class="reg">
+	<fieldset>
+		<legend style="color:white;">Registration form</legend>
+		<form id="form1" name="myform" action="" method="POST"  autocomplete="on">
+			<table align="center">
+				<tr>
+					<td><label for="yrname">Name</label></td>
+					<td><input type="text" id="urname" name="username" maxlength="20" required ></td>
+				</tr>
+				<tr>
+				    <td><label for="contactno">Contact No</label></td>
+				    <td><input type="text" id="contact" name="contact_no" maxlength="10" required></td>
+				</tr>
+				<tr>
+					<td><label for="uremail">Email</label></td>
+					<td><input type="text" id="email" name="usermail" required></td>
+				</tr>
+				<tr>
+					<td><label for="add">Address</label></td>
+					<td><textarea rows="4" cols="40" id="address" name="addr" required></textarea></td>
+				</tr>
+				<tr>
+					<td><label for="collegen">College Name</label></td>
+                    <td><select id="collegename" name="colname" required>
+                    	<option value="">Select college</option>
+                    	<option value="PSG">PSG</option>
+                        <option value="Mepco">Mepco</option>
+                        <option value="Velammal">Velammal</option>
+                        <option value="Kamaraj">Kamaraj</option>
+                    </select></td>
+                </tr>
+                <tr>
+					<td><label for="dis">Discipline </label></td>
+					<td><select id="discipline" name="dis">
+                    	<option value="">Select Branch</option>
+                    	<option value="ECE">ECE</option>
+                        <option value="CSE">CSE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="MECH">MECH</option>
+                    </select></td>
+					
+				</tr>
+				<tr>
+					<td><label for="parid">Participant College ID </label></td>
+					<td><input type="text" id="collegeid" name="partcolgid"></td>
+				</tr>
+
+                <tr>
+                	<td><label for="yr">Year of Study</label></td>
+                	<td>
+                		<label><input type="radio" value="1" name="study" id="one">1</label>
+                	    <label><input type="radio" value="2" name="study" id="two">2</label>
+                	    <label><input type="radio" value="3" name="study" id="three">3</label>
+                	    <label><input type="radio" value="4" name="study" id="four">4</label>
+                	</td>
+                </tr>
+                <tr>
+                    <td><label for="pe">Participating Events</label> </td>
+                    <td>
+                    	<label><input type="checkbox" id="blackbox" name="blackbox" value="BlackBox">BlackBox</label><br>
+                    	<label><input type="checkbox" id="techlathon" name="techlathon" value="Techlathon">Techlathon</label><br>
+                    	<label><input type="checkbox" id="bid-buy-build" name="bid-buy-build"value="BID-BUY-BUILD">BID-BUY-BUILD</label>
+                    </td>
+                </tr>
+                 <tr>
+                	<td><label for="acc">Accomodation Required</label></td>
+                	<td>
+                		<label><input type="radio" value="yes" name="accom" id="y">Yes</label>
+                	    <label><input type="radio" value="no" name="accom" id="n">No</label>
+                	</td>
+                </tr>
+                <tr>
+                	 <td colspan="2" align="center">
+						<input type="submit" value="submit">
+                        <input type="reset" value="Reset">
+                     </td>
+                </tr>
+            </table>
+		</form>
+	</fieldset>
+</div>
+<script type="text/javascript" src="registers.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

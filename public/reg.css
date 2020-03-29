@@ -1,0 +1,33 @@
+h3
+{
+	color:red;
+	font-size:30px;
+	text-align:center;
+}
+
+.reg
+{
+	width:50%;
+	height:600px;
+    margin: 0 auto;
+}
+
+td
+{
+	padding:10px;
+}
+
+table
+{
+     font-size: 14pt; 
+     font-style: normal;
+     background-color:none; 
+     border-collapse: collapse; 
+     border:none;
+     color:white;
+ }
+
+body
+{
+	background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Background-Images-For-Websites-1920x1080.jpg');
+}
